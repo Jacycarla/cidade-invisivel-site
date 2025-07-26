@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade Invisível</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* BANNER ATUALIZADO */
+        .banner {
+            background: url('https://i0.wp.com/assets.b9.com.br/wp-content/uploads/2021/02/cidade-invisivel-netflix-capa.jpg?fit=1280%2C720&ssl=1') no-repeat center center;
+            background-size: cover;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 6px black;
+        }
+
+        .banner button {
+            padding: 15px 30px;
+            font-size: 1em;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: left;
+        }
+
+        video {
+            width: 100%;
+            height: 600px;
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        .card {
+            background-color: #1f1f1f;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #e50914;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BANNER COM FUNDO -->
+    <div class="banner">
+        <h1>Cidade Invisível</h1>
+        <button onclick="window.open('https://www.netflix.com/br/title/81207488', '_blank')">
+            Assista agora na Netflix
+        </button>
+    </div>
+
+    <header>
+        <h1>Cidade Invisível</h1>
+    </header>
+
+    <section>
+        <h2>Sobre a Série</h2>
+        <p>"Cidade Invisível" é uma série brasileira de drama e fantasia que mistura investigação policial com lendas do folclore brasileiro. Criada por Carlos Saldanha, conta com duas temporadas e está disponível na Netflix.</p>
+    </section>
+
+    <section>
+        <h2>Personagens e Lendas</h2>
+        <table>
+            <tr><th>Personagem</th><th>Ator/Atriz</th><th>Lenda</th></tr>
+            <tr><td>Curupira</td><td>Fábio Lago</td><td>Guardião da floresta com pés virados</td></tr>
+            <tr><td>Cuca</td><td>Alessandra Negrini</td><td>Bruxa poderosa que controla sonhos</td></tr>
+            <tr><td>Saci</td><td>Wesley Guimarães</td><td>Travesso de uma perna só</td></tr>
+            <tr><td>Iara</td><td>Jessica Córes</td><td>Sereia que encanta com o canto</td></tr>
+            <tr><td>Boto</td><td>Victor Sparapane</td><td>Encantador das águas</td></tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Trailer Oficial</h2>
+        <video src="./videoplayback (1).mp4" controls></video>
+    </section>
+
+    <section>
+        <h2>Curiosidades</h2>
+        <div class="card">A série foi filmada no Rio de Janeiro e em florestas brasileiras.</div>
+        <div class="card">Criada por Carlos Saldanha, diretor de A Era do Gelo e Rio.</div>
+        <div class="card">Mistura mistério, folclore e crítica social.</div>
+        <div class="card">Lendas ganham vida em meio a crimes e investigações.</div>
+    </section>
+
+    <section>
+        <h2>Outras Produções Relacionadas</h2>
+        <ul>
+            <li><strong>Bacurau</strong> – resistência cultural do sertão</li>
+            <li><strong>Os Guardiões da Floresta</strong> – animação brasileira com seres míticos</li>
+            <li><strong>Sítio do Picapau Amarelo</strong> – desenho com lendas folclóricas</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Site para trabalho. Não oficial. Produzido por <i>Jacycarla Angela.</i></p>
+        <p>Siga: 
+            <a href="https://www.instagram.com/netflixbrasil/">Instagram</a> |
+            <a href="https://www.youtube.com/@NetflixBrasil">YouTube</a> |
+            <a href="https://www.netflix.com/br/title/80217517">Netflix</a>
+        </p>
+    </footer>
+
+</body>
+</html>
